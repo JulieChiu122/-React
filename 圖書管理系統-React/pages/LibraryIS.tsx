@@ -2,7 +2,6 @@ import BookForm from "@/components/BookForm";
 import BookTable from "@/components/BookTable";
 import { Book } from "@/lib/BookType";
 import { useState } from "react"
-import _styles from "@/styles/app.module.scss"
 import styles from "@/styles/app.module.scss"
 
 export default function LibraryIS(){
@@ -41,4 +40,5 @@ export default function LibraryIS(){
             </div>
         </main>
     );
+
 };
